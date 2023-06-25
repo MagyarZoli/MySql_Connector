@@ -16,12 +16,12 @@ public class MySqlConnector {
     /**
      * It is used to store the database connection object.
      */
-    private Connection connection;
+    static Connection connection;
 
     /**
      * It is used to store prepared statements, which are used to execute parameterized MySQL queries.
      */
-    private PreparedStatement preparedStatement;
+    static PreparedStatement preparedStatement;
 
     /**
      * The connection string specifies the protocol (jdbc:mysql://),<br>

@@ -1,5 +1,10 @@
 package mysql;
 
+/**
+ * Enum containing MySQL functions for easier searching.
+ * @since       1.0
+ * @author      <a href=https://github.com/MagyarZoli>Magyar Zoltán</a>
+ */
 public enum MySqlFunctions {
 
     //---String-Functions-----------------------------------------------------------------------------------------------

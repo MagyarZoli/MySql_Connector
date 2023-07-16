@@ -1,2 +1,4 @@
-/.idea/
-/target/
+.idea
+.vscode
+target
+config.properties
